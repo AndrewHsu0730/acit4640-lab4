@@ -6,4 +6,4 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - <public-key>
+      - ~/.ssh/acit4640-lab4-key.pub
