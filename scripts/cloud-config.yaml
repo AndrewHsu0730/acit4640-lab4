@@ -6,13 +6,9 @@ users:
     shell: /bin/bash
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     ssh-authorized-keys:
-      - ~/.ssh/acit4640-lab4-key.pub
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC0mD6pq0LY+FT6auwSvyFMF7XpYZtLAg6+LU77YCR1JbzGid457lA3mbuDlcJ9PXwJhxx3i8S/QoBGNqqgUW6uH8uV4WsU8lkEnxH1SnP5YUW5UgyIjffZcceL0yfEjz777YtaPA++c8Gttx1oYNLof7pB487ZAkUpfN7v10Gx/Oa3Pz7XuWOagoobr3pMeQKhvYvdEaodHScBibT6gZ0bjCI/zp9KAq5NMQTivcaveER6cP/QcMMbPpe/ZGQtmlvYRxw5TSzwRy0ojKSZkXVtmsV0Lyeq7LWq+VZBQpHOaYFo+YcPFrCu549oC24Pa+tiWOFSHgMLPRrqrBoxvJjezfp1aGr4XB/KfbPs80PGQMfnjpY64Lwbj1DQOwnGMvIu7L1sWs+WR7V7qwqCfHziE/KeprlG18h3uShEVKKQ/uCSmlOpOCqQzmdmhajE05D9eBALR+ROi5oHKfMhogn6T/GSD+fRw6J6gvKhuKYwHXGk/pQXQHbqRsVwft128RE= root@MSI
 
 package_update: true
 packages:
   - nginx
   - nmap
-
-runcmd:
-  - systemctl enable nginx
-  - systemctl start nginx
