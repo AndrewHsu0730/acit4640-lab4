@@ -13,3 +13,7 @@
 3. Run the command `terraform apply`.
 4. Type **yes** to let Terraform perform actions described in the configuration file.
 5. Ssh into the instance using the dns_name or public_ip shown as the output.
+
+## Troubleshooting guide
+Issue 1: The free tier t2.micro ec2 instance is not supported in your AZ.
+Solution: Change AZ to us-west-2a
