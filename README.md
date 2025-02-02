@@ -5,7 +5,7 @@
 - Ash Dhatwalia
 
 ## Command to generate a new key pair:
-`ssh-keygen -t rsa -f "/mnt/c/Users/Andrew Hsu/.ssh/acit4640-lab4-key"`
+`ssh-keygen -t rsa -f <file_path>`
 
 ## Steps to connect to the instance:
 1. Go to the folder where the Terraform configuration file is stored.
